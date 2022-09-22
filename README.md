@@ -29,8 +29,6 @@ Python 3.9.x
 
 Kivy 2.0 framework
 
-Pillow
-
 Pyserial
 
 
