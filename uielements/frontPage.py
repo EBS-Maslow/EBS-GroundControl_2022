@@ -59,13 +59,13 @@ class FrontPage(Screen, MakesmithInitFuncs):
         super(FrontPage, self).__init__(**kwargs)
         self.data = data
         
-        self.upLeftArrow.btnBackground          = self.data.iconPath + 'upLeftarrow.png'
+        self.upLeftArrow.btnBackground          = self.data.iconPath + 'upleftarrow.png'
         self.upArrow.btnBackground              = self.data.iconPath + 'uparrow.png'
         self.upRightArrow.btnBackground         = self.data.iconPath + 'uprightarrow.png'
         self.leftArrow.btnBackground            = self.data.iconPath + 'leftarrow.png'
         self.homeBtn.btnBackground              = self.data.iconPath + 'home.png'
         self.rightArrow.btnBackground           = self.data.iconPath + 'rightarrow.png'
-        self.downLeftArrow.btnBackground        = self.data.iconPath + 'downLeftarrow.png'
+        self.downLeftArrow.btnBackground        = self.data.iconPath + 'downleftarrow.png'
         self.downArrow.btnBackground            = self.data.iconPath + 'downarrow.png'
         self.downRightArrow.btnBackground       = self.data.iconPath + 'downrightarrow.png'
         
@@ -92,8 +92,8 @@ class FrontPage(Screen, MakesmithInitFuncs):
         
         self.run.btnBack                 = self.data.iconPath + 'rungreena.png'
         self.run.btnBackDown             = self.data.iconPath + 'rungreendwn.png'
-        self.holdBtn.btnBack             = self.data.iconPath + 'Holdyellowa.png'
-        self.holdBtn.btnBackDown         = self.data.iconPath + 'Holdyellowdwn.png'
+        self.holdBtn.btnBack             = self.data.iconPath + 'holdyellowa.png'
+        self.holdBtn.btnBackDown         = self.data.iconPath + 'holdyellowdwn.png'
         self.holdBtn.secretText          = "HOLD"
         self.stopBtn.btnBack             = self.data.iconPath + 'stopreda.png'
         self.stopBtn.btnBackDown         = self.data.iconPath + 'stopreddwn.png'
